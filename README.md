@@ -24,7 +24,7 @@ about any IP address using an external API.
 
 ``` bash
 git clone https://github.com/AK-ALiEN/ip-tracker.git
-cd ip-lookup-tool
+cd ip-tracker
 pip install -r requirements.txt
 ```
 
