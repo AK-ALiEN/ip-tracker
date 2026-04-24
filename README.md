@@ -1,26 +1,26 @@
-# 🌐 IP Lookup Tool (CLI)
+# IP Lookup Tool (CLI)
 
 A simple Python-based command-line tool to fetch detailed information
 about any IP address using an external API.
 
-## 🚀 Features
+## Features
 
--   🔍 Lookup any IPv4 address
--   🌍 Get location details (city, region, country)
--   📍 Latitude & Longitude with Google Maps link
--   🕒 Timezone and postal code info
--   🌐 ISP and ASN details
--   ✅ Input validation for IP addresses
--   💻 Clean CLI interface with banner
+-  Lookup any IPv4 address
+-  Get location details (city, region, country)
+-  Latitude & Longitude with Google Maps link
+-  Timezone and postal code info
+-  ISP and ASN details
+-  Input validation for IP addresses
+-  Clean CLI interface with banner
 
-## 📂 Project Structure
+## Project Structure
 
     .
     ├── main.py
     ├── requirements.txt
     └── README.md
 
-## ⚙️ Installation
+## Installation
 
 ``` bash
 git clone https://github.com/AK-ALiEN/ip-tracker.git
@@ -28,7 +28,7 @@ cd ip-tracker
 pip install -r requirements.txt
 ```
 
-## ▶️ Usage
+## Usage
 
 ``` bash
 python main.py
@@ -38,7 +38,7 @@ Enter an IP address:
 
     Enter Target IP (or 'q' to quit): 8.8.8.8
 
-## 📸 Example Output
+## Example Output
 
     ==================================================
     IP Address   : 8.8.8.8
@@ -55,26 +55,26 @@ Enter an IP address:
     Google Maps  : https://www.google.com/maps?q=37.386,-122.0838
     ==================================================
 
-## 🧠 How It Works
+## How It Works
 
 -   Sends a POST request to an IP lookup API
 -   Parses JSON response
 -   Displays formatted results in terminal
 
-## 🛡️ Error Handling
+## Error Handling
 
 Handles: - Timeout errors - Connection issues - Invalid responses -
 Incorrect IP formats
 
-## 📌 Requirements
+## Requirements
 
 -   Python 3.x
 -   Internet connection
 
-## ⚠️ Disclaimer
+## Disclaimer
 
 This tool is for educational and informational purposes only.
 
-## ⭐ Contribute
+## Contribute
 
 Feel free to fork the repo and submit pull requests!
